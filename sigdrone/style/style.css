@@ -1,0 +1,136 @@
+/* @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic|Vollkorn:400italic,400); */
+
+/
+@font-face {
+  font-family: 'Lato';
+  src: url('fonts/Lato/Lato-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.content {
+  font-family: 'Lato', sans-serif;
+  border: 1px solid #BBB;
+  border-radius: 12px;
+  box-shadow: 2px 2px 20px #BBB;
+  margin: 20px auto;
+  position: relative;
+  background-color: white;
+}
+
+/* reset */
+a {
+  text-decoration: none;  
+  color: #889;
+}
+a:hover {
+  color: #000;
+}
+
+/* navigation bar */
+#nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+#nav ul li {
+	display: inline;
+}
+#nav ul li a {
+	display: inline-block;
+	margin: 0 10px;
+	padding: 10px 0;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 100;
+	color: #000;
+}
+#nav ul li a:hover {
+	color: #f14510;
+}
+#nav ul li a.current {
+	font-weight: bold;
+	color: #f14510;
+}
+
+/* styles for the index page */
+.index-page {
+	/*background-image: url(images/me-color.png);*/
+	background-repeat: no-repeat;
+	background-position: 80px;
+	background-size: 550px 550px;
+	width: 960px;
+	height: 800px;
+}
+.vote-page {
+	/*background-image: url(images/me-color.png);*/
+	background-repeat: no-repeat;
+	background-position: 80px;
+	background-size: 550px 550px;
+	width: 1360px;
+	height: 1010px;
+}
+.basic-info {
+	position: absolute;
+	right: 20px;
+	color: #222;
+	text-align: right;
+	font-family: 'Vollkorn', serif;
+}
+.basic-info h1 {
+	margin: 10px 0 0 0;
+	border-bottom:2px dotted #555;	
+	padding-bottom:2px;
+}
+.basic-info h1 span {
+	width: 250px;
+	position: relative;
+	top: -6px;
+	margin-left: 2px;
+}
+.basic-info p {
+	font-style: italic;
+	margin: 0px;
+	padding-top: 2px;
+}
+
+/* styles for about page */
+.about-page {
+  height: 600px;
+}
+
+.about-me {
+  position: absolute;
+  top : 35px;
+  bottom: 30px;
+  left: 20px;
+  right: 20px;
+  width: 900px;
+}
+
+.chinese {
+	display: inline;
+	font-family: '楷体';
+	font-size: 22px;
+}
+
+/* styles for research page */
+.research-page {
+  background-image: url(images/ninja.jpg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 270px;
+}
+.publication {
+  margin: 80px 40px 10px 350px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #222;
+}
+.publication b {
+  font-weight: 400;
+}
+.publication ul li {
+  margin-bottom: 20px;
+}
