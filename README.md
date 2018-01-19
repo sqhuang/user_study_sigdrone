@@ -21,3 +21,8 @@
 
 * vote page:
 ![image](https://github.com/sqhuang/user_study_sigdrone/blob/master/sigdrone_fancy/img/vote_page.png)
+
+## Utility
+* collection/sigdrone.py is used for collecting user study data;
+
+* analysis/main.cpp is used for exporting the date.
