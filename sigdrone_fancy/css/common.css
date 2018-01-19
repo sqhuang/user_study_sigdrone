@@ -1,0 +1,42 @@
+/* common */
+*,body,div,span,form,ul,li,dl,dt,dd {
+	margin: 0px;
+	padding: 0px;	
+	list-style: none;	
+	font-family:'Microsoft YaHei',Arial, Helvetica, sans-serif;
+}
+a{	text-decoration: none;}
+img{ border:0;}
+input{  font-size:12px; vertical-align:middle;}
+textarea{ color: #333; border:1px solid #64b101; }
+body{ }
+
+
+
+/*  */
+.row {display:block;clear:both;width:auto;height:auto;}
+.col {display:inline;clear:none;float:left;width:auto;height:auto;}
+.left{float:left;}
+.right{float:right;}
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.top5{margin-top:5px;}
+.top10{margin-top:10px;}
+.left5{margin-left:5px;}
+.left8{margin-left:8px;}
+.left10{margin-left:10px;}
+.right10{margin-right:10px;}
+.bottom5{margin-bottom:5px;}
+.bottom10{margin-bottom:10px;}
+.center{margin:auto;}
+.clear{ clear:both;}
+
+
+
+.top{ height:157px; background: url(../img/bg.gif)   repeat-x ; font-size:60px; text-align:center; color:#ddf6ff; }
+.main{ width:924px; margin:auto; }
+.main2{ width:1297px; margin:auto; }
+
+
+
