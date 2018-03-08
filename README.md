@@ -5,8 +5,7 @@
 * It can be used as data collection for comparison condition.
 
 ##  user study for the drone project
-* project link:
-* user study link:
+* hope all is well
 
 ## prototype
 * index page:
@@ -15,7 +14,7 @@
 * vote page:
 ![image](https://github.com/sqhuang/user_study_sigdrone/blob/master/sigdrone/img/vote_page.png)
 
-## fancy version
+## fancy version 0.1
 * index page:
 ![image](https://github.com/sqhuang/user_study_sigdrone/blob/master/sigdrone_fancy/img/index_page.png)
 
